@@ -22,6 +22,7 @@ from telegram.ext import (
 load_dotenv()
 
 TOKEN = os.getenv("BOT_TOKEN")
+print("TOKEN:", repr(TOKEN))
 ADMIN_ID = 6768745428
 
 DATA_FILE = "data/applications.json"
